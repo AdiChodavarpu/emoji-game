@@ -1,0 +1,52 @@
+.WinOrLossCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff30;
+  border-radius: 10px;
+  border: 2px solid #ffffff30;
+  width: 70%;
+  padding: 50px;
+}
+
+.resultHeading {
+  color: #ffffff;
+  font-size: 38px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.resultImg {
+  height: 380px;
+  width: 330px;
+}
+.resultScore {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.finalscores {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.PlayAgainBtn {
+  border: none;
+  background-color: #ffce27;
+  border-radius: 10px;
+  height: 39px;
+  width: 120px;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
